@@ -81,6 +81,8 @@ a:hover {
 }
 
 /* ---- FEATURED TEAS ---- */
+
+/* following container tries to align section title with the image collection below */
 #feaured_tea {
   display: flex;
   flex-direction: column;
@@ -97,13 +99,14 @@ a:hover {
   margin-bottom: 0;
 }
 
+/* got all the image-caption combos to wrap around in the row (1000px wide) and each subgroup center on each row they display in */
 .teas {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   width: 1000px;
 }
-
+/* get image and caption to center with each other */
 .tea-or-cake {
   display: flex;
   flex-direction: column;
@@ -111,6 +114,7 @@ a:hover {
   text-align: center;
   font-weight: bold;
 }
+/* size the images 200x300 and add margings between images and also between image and caption */
 .tea-or-cake img {
   width: 300px;
   height: 200px;
@@ -118,8 +122,41 @@ a:hover {
   margin-left: 10px;
   margin-right: 10px;
 }
+/* get captions closer to their images */
 .tea-or-cake p {
   margin-top: 0;
 }
 
 /* ---- LOCATIONS ---- */
+
+#locations {
+  background-image: url("../images/img-locations-background.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 500px;
+  width: 1200px;
+}
+
+.locations-bkgd.image_content span {
+  margin: 7 auto; /* initially set top-bottom margin to 10 and seemed to make no difference if I made it smaller */
+  z-index: 8;
+}
+
+.all_locations {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 1200px;
+}
+
+.cafe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 1;
+  width: 300px;
+  background-color: black;
+  margin: 15px 20px 15px 20px;
+}
