@@ -160,3 +160,11 @@ a:hover {
   background-color: black;
   margin: 15px 20px 15px 20px;
 }
+
+/* --- Contact --- */
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
