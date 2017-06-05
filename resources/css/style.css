@@ -167,4 +167,10 @@ a:hover {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  height: 200px;
+  margin: 40px;  /* used to fix weird overlap with Locations background image */
+}
+
+footer {
+  margin-left: 20px;
 }
