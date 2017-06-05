@@ -11,8 +11,9 @@ body {
 
 /* ---- header ---- */
 header {
-  display: flex;
-  align-items: center;
+  display: inline-flex;
+  align-content: center;
+  justify-content: space-between;
   position: fixed;
   margin: auto;
   z-index: 1;
@@ -35,12 +36,12 @@ header nav {
   padding-right: 10px;
   font-size: 22px;
   border: 1px solid white;
-
-}
-.tcnav {
   color: red;
   background-color: grey;
   opacity: 0.9;
+}
+.tcnav {
+
 }
 /* ---- main content area for TEA COZY --- */
 .content {
